@@ -1,0 +1,21 @@
+#Define a valid inner product
+
+import numpy as np
+
+def dot(a, b):
+  """Compute dot product between a and b.
+  Args:
+    a, b: (2,) ndarray as R^2 vectors
+  
+  Returns:
+    a number which is the dot product between a, b
+  """
+  
+  dot_product = np.dot(a, b)
+  
+  return dot_product
+
+# Test your code before you submit.
+a = np.array([1,0])
+b = np.array([0,1])
+print(dot(a,b))
